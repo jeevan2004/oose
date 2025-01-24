@@ -1,0 +1,67 @@
+.service_inner {
+  position: relative;
+}
+
+.service_inner::before {
+  content: "";
+  position: absolute;
+  background: rgb(255, 235, 209);
+  clip-path: polygon(0px 6%, 100% 0px, 100% 100%, 0px 94%);
+  padding: 40px;
+  width: 100%;
+  height: 100%;
+  transform: scale(-1);
+  z-index: -1;
+}
+
+.service_inner .content {
+  padding: 0 40px;
+  padding-top: 60px;
+
+  padding-bottom: 120px;
+}
+
+.service_inner .content h6 {
+  font-size: 100px;
+  font-weight: 100;
+  line-height: normal;
+}
+
+.service_inner .content h5 {
+  font-size: 60px;
+  font-weight: 400;
+}
+.service_inner img {
+  position: absolute;
+  top: -86px;
+  right: -60px;
+}
+.service_content {
+  height: 100%;
+}
+.service_content {
+  padding: 40px 20px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.service_content .content {
+  display: flex;
+  /* align-items: end; */
+  flex-direction: column;
+  padding-left: 60px;
+}
+.service_content .content h4 {
+  color: rgb(87, 84, 84);
+  letter-spacing: 1px;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.service_content .content h4 span {
+  color: rgb(0, 174, 239);
+}

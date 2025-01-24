@@ -1,0 +1,18 @@
+:root {
+  --tg-theme-primary: rgb(0, 174, 239);
+  --tg-theme-secondary: rgb(0, 174, 239);
+  --tg-common-color-blue: #050071;
+  --tg-common-color-blue-2: #282568;
+  --tg-common-color-dark: #1c1a4a;
+  --tg-common-color-black: #06042e;
+  --tg-common-color-grey: #f0f4f5;
+  --tg-common-color-dark-2: #4a44d1;
+  --color-white: #fff;
+  --color-heading: #181818;
+  --color-white: #fff;
+  --color-secondary: rgb(0, 174, 239);
+}
+
+@import url(assets/css/font.css);
+@import url(assets/css/flaticon.css);
+@import url(assets//css/global.css);

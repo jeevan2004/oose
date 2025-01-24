@@ -1,0 +1,19 @@
+.overview {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.overview_inner h3 {
+  color: rgb(87, 84, 84);
+  font-size: 3.42857rem;
+  font-weight: 200;
+  margin-bottom: 15px;
+}
+
+.overview_inner span {
+  color: rgb(0, 174, 239);
+}
+
+.overview_box span {
+  font-size: 60px;
+}

@@ -1,0 +1,75 @@
+.section-header {
+  color: #fff;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.section-header .section-title {
+  font-size: 42px;
+  margin-top: 0;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #0d3559;
+  position: relative;
+}
+.section-header .section-subtitle {
+  margin-top: 15px;
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+}
+#features .content-left {
+  position: relative;
+  top: 60px;
+}
+#features .box-item {
+  padding-bottom: 30px;
+}
+#features .box-item .icon {
+  border: 1px solid #c6003d;
+  text-align: center;
+  margin: 12px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#features .content-left span {
+  float: right;
+  margin-left: 25px;
+}
+#features .icon {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 4px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+#features .box-item .text .title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+#features .box-item .text p {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+#features .show-box {
+  padding: 80px 0px 0px;
+}
+#features .show-box img {
+  width: 100%;
+}
+#features .box-item .icon i {
+  font-size: 40px;
+}
+
+#features .box-item .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

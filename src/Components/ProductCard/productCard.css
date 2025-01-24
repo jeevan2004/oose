@@ -1,0 +1,118 @@
+.courses_item {
+  margin: 0 0 30px;
+  background: #fff;
+
+  border-radius: 10px;
+  padding: 25px 25px 32px;
+  border: 1px solid #b5b5c3;
+
+  transition: all 0.2s ease-out 0s;
+}
+.courses_item_thumb {
+  position: relative;
+  margin: 0 0 20px;
+}
+.courses_item_thumb a {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  height: 170px;
+  border-radius: 6px;
+}
+.courses_item_meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px 20px;
+  margin: 0 0 15px;
+  flex-wrap: wrap;
+}
+.courses_item_meta li {
+  display: flex;
+  align-items: center;
+}
+.courses_item_meta li {
+  list-style: none;
+  padding: 0 !important;
+}
+.courses_item_tag a {
+  font-size: 13px;
+  font-weight: 500;
+  color: #161439;
+  background: #efeff2;
+  display: block;
+  line-height: 1;
+
+  border-radius: 50px;
+  padding: 7px 13px;
+}
+.courses_item .avg_rating i {
+  color: #f8bc24;
+  letter-spacing: 0;
+  margin-right: 5px;
+}
+.courses_item_content .title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 10px 0 15px 0px;
+}
+.courses_item_content .title a {
+  display: inline;
+  background-image: linear-gradient(#161439, #161439),
+    linear-gradient(#161439, #161439);
+  background-size: 0% 2px, 0 2px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.4s linear;
+}
+
+.courses_item_content .title a {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.courses_item .author {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin: 0 0;
+  line-height: 1;
+  gap: 5px;
+}
+.courses_item-bottom {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 23px 0 0;
+}
+.courses_item-bottom .price {
+  font-size: 20px;
+  line-height: 1;
+  color: var(--tg-theme-primary);
+  font-weight: 700;
+  margin: 0 0;
+}
+.courses_item-bottom .button a {
+  display: flex;
+  padding: 10px 19px;
+  align-items: center;
+  gap: 6px;
+  border-radius: 50px;
+  border: 1px solid #000;
+  background: var(--tg-theme-secondary);
+  box-shadow: 4px 4px 0px 0px #3d3d3d;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  color: #161439;
+}
+.courses_item_thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}

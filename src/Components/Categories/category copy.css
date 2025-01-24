@@ -1,0 +1,7 @@
+.categorie-grid {
+  padding: 16px 30px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  min-height: 80px;
+}

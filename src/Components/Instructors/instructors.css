@@ -1,0 +1,130 @@
+.instructor__content-wrap {
+  width: 87%;
+}
+
+.instructors_item .thumbnail-wrap {
+  position: relative;
+}
+.instructors_item .thumbnail {
+  margin-bottom: 25px;
+}
+.instructors_item .thumbnail a {
+  border-radius: 10px;
+  position: relative;
+  display: block;
+}
+.instructors_item .thumbnail a img {
+  border-radius: 10px;
+  width: 100%;
+}
+.instructors_item .thumbnail a:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgba(26, 182, 157, 0.6);
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+}
+.instructors_item:hover .thumbnail a:after {
+  visibility: visible;
+  opacity: 1;
+}
+
+.instructors_item .team-share-info {
+  top: 20px;
+  right: 20px;
+  left: auto;
+  transform: translateY(0);
+  margin: -10px 0;
+}
+.team-share-info {
+  margin: -5px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.instructors_item .team-share-info li:first-child {
+  transform: translateY(0);
+  visibility: visible;
+  opacity: 1;
+}
+
+.instructors_item:hover .team-share-info li {
+  transform: translateY(0);
+
+  visibility: visible;
+  opacity: 1;
+}
+
+.instructors_item:hover .team-share-info li:nth-child(2n) {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+.instructors_item:hover .team-share-info li:nth-child(1n) {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.instructors_item:hover .team-share-info li:first-child a {
+  background-color: var(--color-white);
+  border-color: var(--color-white);
+  color: var(--tg-theme-primary);
+}
+.instructors_item .team-share-info li {
+  display: block;
+  margin: 10px 0;
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+.instructors_item .team-share-info li {
+  /* -webkit-transform: translateX(10px);
+  -ms-transform: translateX(10px); */
+  /* transform: translateX(10px); */
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+}
+.team-share-info li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.instructors_item .team-share-info li:first-child a {
+  border-color: var(--tg-theme-primary);
+  color: var(--tg-theme-primary);
+}
+
+.team-share-info li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 39px;
+  border: 2px solid var(--color-white);
+  text-align: center;
+  border-radius: 50%;
+  font-size: 18px;
+  color: var(--color-white);
+  transition: 0.3s;
+}
+
+.instructors_item .content {
+  text-align: center;
+}
+.instructors_item .content .title {
+  margin-bottom: 4px;
+}
+.instructors_item .content .designation {
+  display: inline-block;
+}

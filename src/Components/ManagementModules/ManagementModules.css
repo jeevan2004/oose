@@ -1,0 +1,23 @@
+.ManagementModules .box {
+  background-color: #fed841f2 !important;
+  padding: 40px;
+}
+.ManagementModules .box h4 {
+  font-size: 36px;
+}
+.ManagementModules .box p {
+  color: #000;
+  font-size: 18px;
+}
+.ManagementModules .box ul {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ManagementModules .box ul li {
+  width: 50%;
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
