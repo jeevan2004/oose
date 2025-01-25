@@ -29,16 +29,18 @@ const Home = () => {
       <div className="pt-5">
         <ServiceBox img={service1} />
       </div>
+      <Features />
+
       <div className="pt-5">
         <ServiceBox img={service2} className="flex-row-reverse" />
       </div>
-      <div className="pt-5">
+      {/* <div className="pt-5">
         <ServiceBox img={service3} />
-      </div>
+      </div> */}
       <Overview />
       {/* <Find /> */}
       <ManagementModules />
-      <Categories />
+      {/* <Categories /> */}
       <AboutSec ordser={0} />
 
       {/* <TopCourse /> */}

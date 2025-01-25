@@ -7,11 +7,15 @@ import mobile from "../../assets/image/mobile.png";
 
 const Features = () => {
   return (
-    <section id="features" class="section" data-stellar-background-ratio="0.2">
-      <div class="container">
-        <div class="section-header">
+    <section
+      id="features"
+      className="section p-100"
+      data-stellar-background-ratio="0.2"
+    >
+      <div className="container">
+        <div className="section-header">
           <h2
-            class="section-title wow fadeIn animated"
+            className="section-title wow fadeIn animated"
             data-wow-duration="1000ms"
             data-wow-delay="0.3s"
           >
@@ -19,7 +23,7 @@ const Features = () => {
           </h2>
 
           <p
-            class="section-subtitle wow fadeIn animated"
+            className="section-subtitle wow fadeIn animated"
             data-wow-duration="1000ms"
             data-wow-delay="0.3s"
           >
@@ -27,39 +31,39 @@ const Features = () => {
             features, download our android app or signup to find out more.
           </p>
         </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <div className="row">
+          <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <div
-              class="content-left text-right text-center wow fadeInLeft animated animated"
+              className="content-left text-right text-center wow fadeInLeft animated animated"
               data-wow-offset="10"
             >
-              <div class="box-item left">
-                <span class="icon">
-                  <i class="fa fa-building"></i>
+              <div className="box-item left">
+                <span className="icon">
+                  <i className="fa fa-building"></i>
                 </span>
-                <div class="text">
-                  <h3 class="title">Manage PGs, Hostels and Apartments</h3>
+                <div className="text">
+                  <h3 className="title">Manage PGs, Hostels and Apartments</h3>
                   <p>
                     Whether you run your PG in rooms, hostel or apartments,
                     we've got you covered
                   </p>
                 </div>
               </div>
-              <div class="box-item left">
-                <span class="icon">
-                  <i class="fa fa-users"></i>
+              <div className="box-item left">
+                <span className="icon">
+                  <i className="fa fa-users"></i>
                 </span>
-                <div class="text">
-                  <h3 class="title">Manage Inmates</h3>
+                <div className="text">
+                  <h3 className="title">Manage Inmates</h3>
                   <p>Check In and Check Out inmates with cloud support!</p>
                 </div>
               </div>
-              <div class="box-item left">
-                <span class="icon">
-                  <i class="fa fa-user"></i>
+              <div className="box-item left">
+                <span className="icon">
+                  <i className="fa fa-user"></i>
                 </span>
-                <div class="text">
-                  <h3 class="title">Manage Staff</h3>
+                <div className="text">
+                  <h3 className="title">Manage Staff</h3>
                   <p>
                     Add\Remove PG staff or better, add Managers to manage your
                     PGs for you!
@@ -67,12 +71,12 @@ const Features = () => {
                 </div>
               </div>
 
-              <div class="box-item left">
-                <span class="icon">
-                  <i class="fa fa-bed"></i>
+              <div className="box-item left">
+                <span className="icon">
+                  <i className="fa fa-bed"></i>
                 </span>
-                <div class="text">
-                  <h3 class="title">Availability</h3>
+                <div className="text">
+                  <h3 className="title">Availability</h3>
                   <p>
                     Track your PG's bed availability efficiently, hassle-free
                   </p>
@@ -80,37 +84,37 @@ const Features = () => {
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <div
-              class="show-box wow fadeInDown animated animated"
+              className="show-box wow fadeInDown animated animated"
               data-wow-offset="10"
             >
               <img src={mobile} width="350" height="auto" alt="" />
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <div
-              class="content-right text-left text-center wow fadeInRight animated animated"
+              className="content-right text-left text-center wow fadeInRight animated animated"
               data-wow-offset="10"
             >
-              <div class="box-item right">
-                <span class="icon">
-                  <i class="fa fa-bar-chart "></i>
+              <div className="box-item right">
+                <span className="icon">
+                  <i className="fas fa-chart-bar "></i>
                 </span>
-                <div class="text">
-                  <h3 class="title">Expense Management</h3>
+                <div className="text">
+                  <h3 className="title">Expense Management</h3>
                   <p>
                     Add and track your PG expenses to visualize the
                     profitability and growth
                   </p>
                 </div>
               </div>
-              <div class="box-item right">
-                <span class="icon">
-                  <i class="fa fa-inr"></i>
+              <div className="box-item right">
+                <span className="icon">
+                  <i class="fas fa-rupee-sign"></i>
                 </span>
-                <div class="text">
-                  <h3 class="title">Smart Rent Collection</h3>
+                <div className="text">
+                  <h3 className="title">Smart Rent Collection</h3>
                   <p>
                     Collect rent on your preferred day of the month, which can
                     also be configured for each inmate/tenant
@@ -118,12 +122,12 @@ const Features = () => {
                 </div>
               </div>
 
-              <div class="box-item right">
-                <span class="icon">
-                  <i class="fa fa-file-pdf-o "></i>
+              <div className="box-item right">
+                <span className="icon">
+                  <i class="fas fa-file-pdf"></i>
                 </span>
-                <div class="text">
-                  <h3 class="title">Rent Receipts</h3>
+                <div className="text">
+                  <h3 className="title">Rent Receipts</h3>
                   <p>
                     Why waste paper when you can mail rent receipts to inmates.
                     Go green!
@@ -131,12 +135,12 @@ const Features = () => {
                 </div>
               </div>
 
-              <div class="box-item right">
-                <span class="icon">
-                  <i class="fa fa-file-excel-o "></i>
+              <div className="box-item right">
+                <span className="icon">
+                  <i class="fas fa-file-excel"></i>
                 </span>
-                <div class="text">
-                  <h3 class="title">Reports</h3>
+                <div className="text">
+                  <h3 className="title">Reports</h3>
                   <p>
                     All your PG stats and data is just a click away with our
                     detailed reports
@@ -147,15 +151,15 @@ const Features = () => {
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 row">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
-              <div class="box-item text-center">
-                <span class="icon">
-                  <i class="fa fa-address-book"></i>
+        <div className="row">
+          <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 row">
+            <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+              <div className="box-item text-center">
+                <span className="icon">
+                  <i className="fa fa-address-book"></i>
                 </span>
-                <div class="text">
-                  <p class="title">Bookings</p>
+                <div className="text">
+                  <p className="title">Bookings</p>
                   <p>
                     Take bed bookings for future check-ins and avoid check-in
                     conflicts
@@ -163,13 +167,13 @@ const Features = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-              <div class="box-item text-center">
-                <span class="icon">
-                  <i class="fa fa-cutlery"></i>
+            <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <div className="box-item text-center">
+                <span className="icon">
+                  <i class="fas fa-utensils"></i>
                 </span>
-                <div class="text">
-                  <p class="title">Food Register</p>
+                <div className="text">
+                  <p className="title">Food Register</p>
                   <p>
                     Save food and expense with our food register which helps
                     track count of plates to be served
@@ -177,13 +181,13 @@ const Features = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-              <div class="box-item  text-center">
-                <span class="icon">
-                  <i class="fa fa-info-circle"></i>
+            <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <div className="box-item  text-center">
+                <span className="icon">
+                  <i className="fa fa-info-circle"></i>
                 </span>
-                <div class="text">
-                  <p class="title">Issue Management</p>
+                <div className="text">
+                  <p className="title">Issue Management</p>
                   <p>
                     Manage your PG issues. Track their progress and resolve them
                     to keep your inmates happy!
@@ -192,14 +196,14 @@ const Features = () => {
               </div>
             </div>
           </div>
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 row">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
-              <div class="box-item text-center">
-                <span class="icon">
-                  <i class="fa fa-pie-chart "></i>
+          <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 row">
+            <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+              <div className="box-item text-center">
+                <span className="icon">
+                  <i class="fas fa-chart-pie"></i>
                 </span>
-                <div class="text">
-                  <p class="title">Profit/Loss Tracking</p>
+                <div className="text">
+                  <p className="title">Profit/Loss Tracking</p>
                   <p>
                     Know how much your PG is making or loosing with our detailed
                     monthly and yearly profit/loss data
@@ -207,13 +211,13 @@ const Features = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-              <div class="box-item text-center">
-                <span class="icon">
-                  <i class="fa fa-envelope "></i>
+            <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <div className="box-item text-center">
+                <span className="icon">
+                  <i className="fa fa-envelope "></i>
                 </span>
-                <div class="text">
-                  <p class="title">SMS and WhatsApp Notifications </p>
+                <div className="text">
+                  <p className="title">SMS and WhatsApp Notifications </p>
                   <p>
                     Send SMS and WhatsApp reminders at will or configure to send
                     it on your behalf automatically
@@ -221,43 +225,43 @@ const Features = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-              <div class="box-item text-center">
-                <span class="icon">
-                  <i class="fa fa-ticket"></i>
+            <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+              <div className="box-item text-center">
+                <span className="icon">
+                  <i class="fas fa-ticket-alt"></i>
                 </span>
-                <div class="text">
-                  <p class="title">Support</p>
+                <div className="text">
+                  <p className="title">Support</p>
                   <p>
                     {" "}
-                    Enjoy best in class email, call and chat support on all
+                    Enjoy best in className email, call and chat support on all
                     working days
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 row">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
-              <div class="box-item text-center">
-                <span class="icon">
-                  <i class="fa fa-id-card "></i>
+          <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 row">
+            <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+              <div className="box-item text-center">
+                <span className="icon">
+                  <i className="fa fa-id-card "></i>
                 </span>
-                <div class="text">
-                  <p class="title">Aadhaar KYC</p>
+                <div className="text">
+                  <p className="title">Aadhaar KYC</p>
                   <p>
                     Perform Aadhaar KYC to validate tenant's Aadhaar details
                   </p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-              <div class="box-item text-center">
-                <span class="icon">
-                  <i class="fa fa-percent "></i>
+            <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <div className="box-item text-center">
+                <span className="icon">
+                  <i className="fa fa-percent "></i>
                 </span>
-                <div class="text">
-                  <p class="title">GST Collection and Invoicing</p>
+                <div className="text">
+                  <p className="title">GST Collection and Invoicing</p>
                   <p>
                     Collect GST on rent and other payments, generate GST
                     invoices to share with tenants

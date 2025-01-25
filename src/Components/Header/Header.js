@@ -25,25 +25,20 @@ function Header() {
     };
   }, []);
 
-  const getAllCategory = async () => {
-    let res = await api(
-      `api/v1/course/getfilterdata`,
-      "",
-      "get",
-      "",
-      // currUserData?.token,
-      ""
-    );
+  // const getAllCategory = async () => {
+  //   let res = await api(
+  //     `api/v1/course/getfilterdata`,
+  //     "",
+  //     "get",
+  //     "",
+  //     // currUserData?.token,
+  //     ""
+  //   );
 
-    if ((res, res.status)) {
-      setCategoriesList(res?.data?.categories);
-    }
-  };
-
-  // Call CourseData when the filter values change
-  useEffect(() => {
-    getAllCategory();
-  }, []);
+  //   if ((res, res.status)) {
+  //     setCategoriesList(res?.data?.categories);
+  //   }
+  // };
 
   const headerMenu = [
     {

@@ -21,11 +21,16 @@
   position: relative;
   top: 60px;
 }
+
+#features .content-right {
+  position: relative;
+  top: 60px;
+}
 #features .box-item {
   padding-bottom: 30px;
 }
 #features .box-item .icon {
-  border: 1px solid #c6003d;
+  border: 1px solid var(--color-secondary);
   text-align: center;
   margin: 12px;
   -webkit-transition: all 0.2s linear;
@@ -37,6 +42,11 @@
 #features .content-left span {
   float: right;
   margin-left: 25px;
+}
+
+#features .content-right span {
+  float: left;
+  margin-right: 25px;
 }
 #features .icon {
   display: inline-block;
@@ -51,10 +61,11 @@
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 18px;
+  color: #161439;
   line-height: 22px;
 }
 #features .box-item .text p {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 26px;
 }
 
@@ -63,13 +74,41 @@
 }
 #features .show-box img {
   width: 100%;
+  height: 450px;
 }
+
 #features .box-item .icon i {
-  font-size: 40px;
+  color: var(--color-secondary);
+  font-size: 24px;
+  line-height: 60px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 #features .box-item .icon {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#features .box-item.text-center .icon {
+  margin: 12px auto;
+}
+
+#features .box-item:hover .icon {
+  background: var(--color-secondary);
+  color: #fff;
+}
+#features .box-item:hover .icon i {
+  color: #fff;
+}
+
+#features .box-item:hover .text .title {
+  color: var(--color-secondary);
+}
+
+#features .box-item:hover .text p {
+  color: var(--color-secondary);
 }
