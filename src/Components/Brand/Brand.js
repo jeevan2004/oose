@@ -1,74 +1,46 @@
 import React from "react";
 import "./brand.css";
-import shape from "../../assets/image/shap.png";
-
+import logo1 from "../../assets/image/logo1.webp";
+import logo2 from "../../assets/image/logo2.webp";
+import logo3 from "../../assets/image/logo3.webp";
+import logo4 from "../../assets/image/logo4.webp";
 const Brand = () => {
   return (
-    <div className="edu-brand-area">
+    <div className="">
       <div className="container">
         <div className="row">
-          <div className="col-lg-5">
-            <div className="brand-section-heading">
-              <div className="section-title section-left ">
-                <h3 className="sub_heading">Our Partners</h3>
-                <h1 className="main_heading">Learn with Our Partners</h1>
-                <img className="heading_shape mt-3 mb-4" src={shape} alt="" />
-                <p>
-                  Lorem ipsum dolor sit amet consectur adipiscing elit sed
-                  eiusmod tempor incididunt.
-                </p>
+          <div className="col-lg-12">
+            <div className="brand-section-heading text-center">
+              <div className="section-title mb-5 ">
+                <h1 className="main_heading">Our Brands</h1>
               </div>
             </div>
           </div>
-          <div className="col-lg-7">
+          <div className="col-lg-12">
             <div className="brand-grid-wrap">
               <div className="brand-grid">
-                <img
-                  src="	https://edublink.html.devsblink.com/assets/images/brand/brand-01.png"
-                  alt="Brand Logo"
-                />
+                <img src={logo1} alt="Brand Logo" />
               </div>
               <div className="brand-grid">
-                <img
-                  src="	https://edublink.html.devsblink.com/assets/images/brand/brand-01.png"
-                  alt="Brand Logo"
-                />
+                <img src={logo2} alt="Brand Logo" />
               </div>
               <div className="brand-grid">
-                <img
-                  src="	https://edublink.html.devsblink.com/assets/images/brand/brand-01.png"
-                  alt="Brand Logo"
-                />
+                <img src={logo3} alt="Brand Logo" />
               </div>
               <div className="brand-grid">
-                <img
-                  src="	https://edublink.html.devsblink.com/assets/images/brand/brand-01.png"
-                  alt="Brand Logo"
-                />
+                <img src={logo4} alt="Brand Logo" />
               </div>
               <div className="brand-grid">
-                <img
-                  src="	https://edublink.html.devsblink.com/assets/images/brand/brand-01.png"
-                  alt="Brand Logo"
-                />
+                <img src={logo1} alt="Brand Logo" />
               </div>
               <div className="brand-grid">
-                <img
-                  src="	https://edublink.html.devsblink.com/assets/images/brand/brand-01.png"
-                  alt="Brand Logo"
-                />
+                <img src={logo3} alt="Brand Logo" />
               </div>
               <div className="brand-grid">
-                <img
-                  src="	https://edublink.html.devsblink.com/assets/images/brand/brand-01.png"
-                  alt="Brand Logo"
-                />
+                <img src={logo2} alt="Brand Logo" />
               </div>
               <div className="brand-grid">
-                <img
-                  src="	https://edublink.html.devsblink.com/assets/images/brand/brand-01.png"
-                  alt="Brand Logo"
-                />
+                <img src={logo4} alt="Brand Logo" />
               </div>
             </div>
           </div>

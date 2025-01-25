@@ -7,24 +7,21 @@
 }
 
 .brand-grid-wrap {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  position: relative;
-}
-
-.brand-grid-wrap .brand-grid:first-child {
-  border-left: 1px solid #f0f0f0;
-}
-
-.brand-grid-wrap .brand-grid:nth-child(5) {
-  border-left: 1px solid #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 100px;
+  flex-wrap: wrap;
 }
 
 .brand-grid-wrap .brand-grid {
-  padding: 18px 5px;
+  width: 140px;
+  padding: 0 15px;
   text-align: center;
-  border-right: 1px solid #f0f0f0;
+  border: 1px solid #bdbdbd;
+  border-radius: 20px;
   transition: 0.3s;
+  margin: 0 15px 15px 15px;
 }
 
 .brand-grid-wrap:after {

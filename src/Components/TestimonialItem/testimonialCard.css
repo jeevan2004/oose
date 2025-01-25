@@ -1,11 +1,15 @@
 .testimonial-grid {
-  box-shadow: 0 10px 50px 0 rgba(26, 46, 85, 0.1);
   background-color: var(--color-white);
   border-radius: 10px;
   padding: 60px 30px 50px;
   position: relative;
   z-index: 1;
   overflow: hidden;
+}
+
+.testimonial-grid .slick-prev:before,
+.testimonial-grid .slick-next:before {
+  color: #00aeef;
 }
 
 .testimonial-grid .thumbnail {

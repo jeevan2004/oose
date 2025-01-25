@@ -11,7 +11,7 @@ import shape from "../../assets/image/shap.png";
 const AboutSec = () => {
   return (
     <>
-      <div class="gap-bottom-equal edu-about-area about-style-1">
+      <div class="gap-bottom-equal edu-about-area about-style-1 p-100">
         <div class="container edublink-animated-shape">
           <div class="row g-5 align-items-center">
             <div class="col-lg-6">

@@ -41,7 +41,9 @@ const Home = () => {
       {/* <Find /> */}
       <ManagementModules />
       {/* <Categories /> */}
-      <AboutSec ordser={0} />
+      <section className="p-100">
+        <AboutSec ordser={0} />
+      </section>
 
       {/* <TopCourse /> */}
 

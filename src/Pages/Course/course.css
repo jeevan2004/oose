@@ -390,10 +390,6 @@ div.switcher label input:checked + span,
   height: auto;
 }
 
-.accordion-button:not(.collapsed)::after {
-  content: "\f068";
-}
-
 .courses__instructors-wrap {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;

@@ -1,3 +1,40 @@
 .testimonial .item .testimonial__item {
   margin: 0 10px;
 }
+
+.testimonial {
+  background: #f7f7f9;
+}
+
+.description_section .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.description_section .content h4 {
+  font-weight: 600;
+  font-size: 20px;
+}
+.description_section .content_bottom {
+  border: 3px solid #8787ff;
+  border-radius: 10px;
+  padding: 2rem;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #505056;
+  margin: 0px;
+  text-align: center;
+}
+
+.marquee {
+  background: rgb(0, 174, 239);
+}
+
+.marquee-text {
+  font-size: 2.3rem;
+  font-weight: 600;
+  color: #031729;
+}

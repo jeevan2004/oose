@@ -46,6 +46,11 @@ function Header() {
       path: "/",
       subMenu: false,
     },
+    {
+      title: "About Us",
+      path: "/about-us",
+      subMenu: false,
+    },
     // {
     //   title: "Programs",
     //   path: "#",
