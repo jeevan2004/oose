@@ -373,9 +373,7 @@ const TermsConditions = () => {
             <b>Contact Us:</b>
             <p>
               you can always reach us at{" "}
-              <a href="mailto:support@oosaservices.com">
-                support@oosaservices.com
-              </a>{" "}
+              <a href="mailto:oosaservices@gmail.com">oosaservices@gmail.com</a>{" "}
               and for any kind of support. Looking forward to see you mail!
             </p>
           </div>

@@ -141,8 +141,8 @@ const ContactUs = () => {
                     </div>
                     <div className="content">
                       <h4 className="title">E-mail Address</h4>
-                      <a href="mailto:support@oosaservices.com">
-                        support@oosaservices.com
+                      <a href="mailto:oosaservices@gmail.com">
+                        oosaservices@gmail.com
                       </a>
                     </div>
                   </li>

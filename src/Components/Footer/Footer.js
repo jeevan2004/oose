@@ -27,7 +27,7 @@ const Footer = () => {
                     2nd Stage, Bengaluru - 560038
                   </p>
                   <p>Call:+91 7899916434</p>
-                  <p>Email:info@oosaservices.com</p>
+                  <p>Email:oosaservices@gmail.com</p>
                 </div>
               </div>
               {/* <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
@@ -84,7 +84,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <i></i>
-                      <p>support@oosaservices.com</p>
+                      <p>oosaservices@gmail.com</p>
                     </li>
                   </ul>
                 </div>

@@ -651,8 +651,8 @@ const PrivacyPolicy = () => {
             </p>
             <ul>
               <li>
-                <a href="mailto:support@oosaservices.com">
-                  support@oosaservices.com
+                <a href="mailto:oosaservices@gmail.com">
+                  oosaservices@gmail.com
                 </a>
               </li>
             </ul>

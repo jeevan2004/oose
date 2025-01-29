@@ -13,7 +13,7 @@ const TopHeader = () => {
                   560038
                 </li>
                 <li>
-                  <i class="fas fa-envelope-open"></i> info@oosaservices.com
+                  <i class="fas fa-envelope-open"></i> oosaservices@gmail.com
                 </li>
               </ul>
             </div>
